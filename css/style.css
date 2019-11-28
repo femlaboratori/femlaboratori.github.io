@@ -4,6 +4,12 @@ body{
 	font-size: 48px;
 }
 
+@font-face {
+  font-family: Side A;
+  src: url("fonts/Side_A_Unit.otf");
+  font-weight: 400;
+}
+
 p{
 	margin-top: 0.6rem;
 }
@@ -28,11 +34,13 @@ a{
 }
 
 p::selection, h2::selection{
-	color: red;
+	color: black;
+	background: rgba(0,0,0,0.99);
 }
 
 a::selection{
 	color: black;
+	background: rgba(0,0,0,0.99);
 }
 
 ul{
