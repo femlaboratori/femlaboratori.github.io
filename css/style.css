@@ -66,4 +66,8 @@ img#manifest{
   h2{
   	font-size: 30px;
   }
+
+  img#manifest{
+  	width: 300px;
+  }
 }
